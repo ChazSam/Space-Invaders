@@ -7,9 +7,9 @@ size = Vector2(24, 23)
 
 [node name="Enemy" type="CharacterBody2D" unique_id=1474873810]
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1239943953]
-texture = ExtResource("1_8ppw7")
-
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=611118068]
 position = Vector2(0, 1.5)
 shape = SubResource("RectangleShape2D_kyiu4")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1239943953]
+texture = ExtResource("1_8ppw7")

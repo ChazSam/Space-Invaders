@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://bgi21s1hlbsy8"]
 
 [ext_resource type="PackedScene" uid="uid://b1htj45bfo031" path="res://Space-Invaders/Scenes/player.tscn" id="1_lbyu6"]
+[ext_resource type="PackedScene" uid="uid://d0lnlns6uveu3" path="res://Space-Invaders/Scenes/enemy.tscn" id="2_o6mx0"]
 
 [node name="Main" type="Node2D" unique_id=434830871]
 
@@ -12,5 +13,256 @@ offset_bottom = 655.0
 color = Color(0.18000486, 0.18000486, 0.18000486, 1)
 
 [node name="Player" parent="." unique_id=1921641357 instance=ExtResource("1_lbyu6")]
-position = Vector2(617, 600)
-scale = Vector2(2, 2)
+position = Vector2(600, 600)
+
+[node name="Enemies" type="Node2D" parent="." unique_id=65647296]
+
+[node name="Enemy" parent="Enemies" unique_id=1474873810 instance=ExtResource("2_o6mx0")]
+position = Vector2(256, 300)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy2" parent="Enemies" unique_id=270290513 instance=ExtResource("2_o6mx0")]
+position = Vector2(331, 300)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy3" parent="Enemies" unique_id=446979764 instance=ExtResource("2_o6mx0")]
+position = Vector2(406, 300)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy4" parent="Enemies" unique_id=1018197453 instance=ExtResource("2_o6mx0")]
+position = Vector2(481, 300)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy5" parent="Enemies" unique_id=813405172 instance=ExtResource("2_o6mx0")]
+position = Vector2(556, 300)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy6" parent="Enemies" unique_id=1161873982 instance=ExtResource("2_o6mx0")]
+position = Vector2(631, 300)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy7" parent="Enemies" unique_id=1194124479 instance=ExtResource("2_o6mx0")]
+position = Vector2(706, 300)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy8" parent="Enemies" unique_id=1751177624 instance=ExtResource("2_o6mx0")]
+position = Vector2(781, 300)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy9" parent="Enemies" unique_id=2000944353 instance=ExtResource("2_o6mx0")]
+position = Vector2(856, 300)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy10" parent="Enemies" unique_id=1375427430 instance=ExtResource("2_o6mx0")]
+position = Vector2(929, 300)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy11" parent="Enemies" unique_id=1269124290 instance=ExtResource("2_o6mx0")]
+position = Vector2(254, 250)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy12" parent="Enemies" unique_id=113608709 instance=ExtResource("2_o6mx0")]
+position = Vector2(329, 250)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy13" parent="Enemies" unique_id=1399386179 instance=ExtResource("2_o6mx0")]
+position = Vector2(404, 250)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy14" parent="Enemies" unique_id=1318940209 instance=ExtResource("2_o6mx0")]
+position = Vector2(479, 250)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy15" parent="Enemies" unique_id=780702740 instance=ExtResource("2_o6mx0")]
+position = Vector2(554, 250)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy16" parent="Enemies" unique_id=474943806 instance=ExtResource("2_o6mx0")]
+position = Vector2(629, 250)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy17" parent="Enemies" unique_id=1397693578 instance=ExtResource("2_o6mx0")]
+position = Vector2(704, 250)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy18" parent="Enemies" unique_id=723113889 instance=ExtResource("2_o6mx0")]
+position = Vector2(779, 250)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy19" parent="Enemies" unique_id=1817755914 instance=ExtResource("2_o6mx0")]
+position = Vector2(854, 250)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy20" parent="Enemies" unique_id=241379376 instance=ExtResource("2_o6mx0")]
+position = Vector2(929, 250)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy21" parent="Enemies" unique_id=2052710927 instance=ExtResource("2_o6mx0")]
+position = Vector2(254, 200)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy22" parent="Enemies" unique_id=929877983 instance=ExtResource("2_o6mx0")]
+position = Vector2(329, 200)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy23" parent="Enemies" unique_id=878775687 instance=ExtResource("2_o6mx0")]
+position = Vector2(404, 200)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy24" parent="Enemies" unique_id=1369577923 instance=ExtResource("2_o6mx0")]
+position = Vector2(479, 200)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy25" parent="Enemies" unique_id=1160932586 instance=ExtResource("2_o6mx0")]
+position = Vector2(554, 200)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy26" parent="Enemies" unique_id=953272557 instance=ExtResource("2_o6mx0")]
+position = Vector2(629, 200)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy27" parent="Enemies" unique_id=1130004896 instance=ExtResource("2_o6mx0")]
+position = Vector2(704, 200)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy28" parent="Enemies" unique_id=541444580 instance=ExtResource("2_o6mx0")]
+position = Vector2(779, 200)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy29" parent="Enemies" unique_id=1628035380 instance=ExtResource("2_o6mx0")]
+position = Vector2(854, 200)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy30" parent="Enemies" unique_id=499535701 instance=ExtResource("2_o6mx0")]
+position = Vector2(929, 200)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy31" parent="Enemies" unique_id=305754335 instance=ExtResource("2_o6mx0")]
+position = Vector2(254, 150)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy32" parent="Enemies" unique_id=1434848046 instance=ExtResource("2_o6mx0")]
+position = Vector2(329, 150)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy33" parent="Enemies" unique_id=1246120739 instance=ExtResource("2_o6mx0")]
+position = Vector2(404, 150)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy34" parent="Enemies" unique_id=1397951310 instance=ExtResource("2_o6mx0")]
+position = Vector2(479, 150)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy35" parent="Enemies" unique_id=1926047944 instance=ExtResource("2_o6mx0")]
+position = Vector2(554, 150)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy36" parent="Enemies" unique_id=1798448809 instance=ExtResource("2_o6mx0")]
+position = Vector2(629, 150)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy37" parent="Enemies" unique_id=2115216513 instance=ExtResource("2_o6mx0")]
+position = Vector2(704, 150)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy38" parent="Enemies" unique_id=397422806 instance=ExtResource("2_o6mx0")]
+position = Vector2(779, 150)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy39" parent="Enemies" unique_id=224247711 instance=ExtResource("2_o6mx0")]
+position = Vector2(854, 150)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy40" parent="Enemies" unique_id=1388863340 instance=ExtResource("2_o6mx0")]
+position = Vector2(929, 150)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy41" parent="Enemies" unique_id=1029373347 instance=ExtResource("2_o6mx0")]
+position = Vector2(254, 100)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy42" parent="Enemies" unique_id=266687750 instance=ExtResource("2_o6mx0")]
+position = Vector2(329, 100)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy43" parent="Enemies" unique_id=531649733 instance=ExtResource("2_o6mx0")]
+position = Vector2(404, 100)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy44" parent="Enemies" unique_id=1977316614 instance=ExtResource("2_o6mx0")]
+position = Vector2(479, 100)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy45" parent="Enemies" unique_id=419652182 instance=ExtResource("2_o6mx0")]
+position = Vector2(554, 100)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy46" parent="Enemies" unique_id=1427134061 instance=ExtResource("2_o6mx0")]
+position = Vector2(629, 100)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy47" parent="Enemies" unique_id=274571192 instance=ExtResource("2_o6mx0")]
+position = Vector2(704, 100)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy48" parent="Enemies" unique_id=1329223021 instance=ExtResource("2_o6mx0")]
+position = Vector2(779, 100)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy49" parent="Enemies" unique_id=1867102692 instance=ExtResource("2_o6mx0")]
+position = Vector2(854, 100)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
+
+[node name="Enemy50" parent="Enemies" unique_id=857420102 instance=ExtResource("2_o6mx0")]
+position = Vector2(929, 100)
+rotation = -3.1415925
+scale = Vector2(1.75, 1.75)
