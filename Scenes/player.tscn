@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://b1htj45bfo031"]
+
+[ext_resource type="Texture2D" uid="uid://cyh0qdbi4tuph" path="res://Space-Invaders/Assests/Foozle_2DS0011_Void_MainShip/Main Ship/Main Ship - Bases/PNGs/Main Ship - Base - Full health.png" id="1_pbw7s"]
+[ext_resource type="Script" uid="uid://cqyln3arq55d4" path="res://Space-Invaders/Scenes/player.gd" id="1_s3vle"]
+[ext_resource type="Script" uid="uid://ckcm55i613r7d" path="res://Space-Invaders/Scripts/input_component.gd" id="2_s3vle"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fawgi"]
+size = Vector2(30, 26)
+
+[node name="Player" type="CharacterBody2D" unique_id=1921641357]
+script = ExtResource("1_s3vle")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=316425053]
+shape = SubResource("RectangleShape2D_fawgi")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2126743761]
+texture = ExtResource("1_pbw7s")
+
+[node name="InputComponent" type="Node" parent="." unique_id=1643389375]
+script = ExtResource("2_s3vle")
+metadata/_custom_type_script = "uid://ckcm55i613r7d"
