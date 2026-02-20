@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://bgi21s1hlbsy8"]
 
+[ext_resource type="PackedScene" uid="uid://b1htj45bfo031" path="res://Space-Invaders/Scenes/player.tscn" id="1_lbyu6"]
+
 [node name="Main" type="Node2D" unique_id=434830871]
 
 [node name="Background" type="ColorRect" parent="." unique_id=1606747421]
@@ -8,3 +10,7 @@ offset_top = -10.0
 offset_right = 1161.0
 offset_bottom = 655.0
 color = Color(0.18000486, 0.18000486, 0.18000486, 1)
+
+[node name="Player" parent="." unique_id=1921641357 instance=ExtResource("1_lbyu6")]
+position = Vector2(617, 600)
+scale = Vector2(2, 2)

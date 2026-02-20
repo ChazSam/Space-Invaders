@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://d0lnlns6uveu3"]
+
+[ext_resource type="Texture2D" uid="uid://d12vc45orv868" path="res://Space-Invaders/Assests/Foozle_2DS0012_Void_EnemyFleet_1/Kla'ed/Base/PNGs/Kla'ed - Scout - Base.png" id="1_8ppw7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kyiu4"]
+size = Vector2(24, 23)
+
+[node name="Enemy" type="CharacterBody2D" unique_id=1474873810]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1239943953]
+texture = ExtResource("1_8ppw7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=611118068]
+position = Vector2(0, 1.5)
+shape = SubResource("RectangleShape2D_kyiu4")
