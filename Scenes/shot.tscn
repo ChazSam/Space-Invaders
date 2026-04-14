@@ -3,15 +3,49 @@
 [ext_resource type="Script" uid="uid://br50twsm3r8nl" path="res://Space-Invaders/Scenes/shot.gd" id="1_q62kd"]
 [ext_resource type="Texture2D" uid="uid://d0h28umhdr7o3" path="res://Space-Invaders/Assests/Foozle_2DS0011_Void_MainShip/Main ship weapons/PNGs/Main ship weapon - Projectile - Rocket.png" id="1_t1yjw"]
 
-[node name="Shot" type="Node2D" unique_id=204037008]
+[sub_resource type="AtlasTexture" id="AtlasTexture_q62kd"]
+atlas = ExtResource("1_t1yjw")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2yvg7"]
+atlas = ExtResource("1_t1yjw")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gndhq"]
+atlas = ExtResource("1_t1yjw")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vsruk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q62kd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2yvg7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gndhq")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 10.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_horv4"]
+radius = 6.0
+height = 36.0
+
+[node name="Shot" type="CharacterBody2D" unique_id=1104179005]
 script = ExtResource("1_q62kd")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=10861791]
-position = Vector2(48, 16)
-texture = ExtResource("1_t1yjw")
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1523281914]
+position = Vector2(0, -2)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_vsruk")
+animation = &"new_animation"
+frame_progress = 0.9564275
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=406098509]
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1732770124]
-texture_filter = 1
-position = Vector2(87, 59)
+position = Vector2(-1, 3)
+shape = SubResource("CapsuleShape2D_horv4")

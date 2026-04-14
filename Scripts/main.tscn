@@ -1,9 +1,11 @@
 [gd_scene format=3 uid="uid://bgi21s1hlbsy8"]
 
 [ext_resource type="PackedScene" uid="uid://b1htj45bfo031" path="res://Space-Invaders/Scenes/player.tscn" id="1_lbyu6"]
+[ext_resource type="Script" uid="uid://cbbycdwi2yr0o" path="res://Space-Invaders/Scripts/main.gd" id="1_v7q55"]
 [ext_resource type="PackedScene" uid="uid://d0lnlns6uveu3" path="res://Space-Invaders/Scenes/enemy.tscn" id="2_o6mx0"]
 
 [node name="Main" type="Node2D" unique_id=434830871]
+script = ExtResource("1_v7q55")
 
 [node name="Background" type="ColorRect" parent="." unique_id=1606747421]
 offset_left = -9.0
