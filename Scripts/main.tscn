@@ -7,13 +7,13 @@
 
 [node name="Background" type="ColorRect" parent="." unique_id=1606747421]
 offset_left = -9.0
-offset_top = -10.0
-offset_right = 1161.0
-offset_bottom = 655.0
+offset_top = -8.0
+offset_right = 1211.0
+offset_bottom = 812.0
 color = Color(0.18000486, 0.18000486, 0.18000486, 1)
 
 [node name="Player" parent="." unique_id=1921641357 instance=ExtResource("1_lbyu6")]
-position = Vector2(600, 600)
+position = Vector2(600, 740)
 
 [node name="Enemies" type="Node2D" parent="." unique_id=65647296]
 
@@ -268,29 +268,29 @@ rotation = -3.1415925
 scale = Vector2(1.75, 1.75)
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=750114135]
-offset_left = 153.0
-offset_top = 513.0
-offset_right = 278.0
-offset_bottom = 548.0
+offset_left = 155.0
+offset_top = 655.0
+offset_right = 280.0
+offset_bottom = 690.0
 color = Color(1, 0.32941177, 0, 1)
 
 [node name="ColorRect2" type="ColorRect" parent="." unique_id=567057160]
 offset_left = 403.0
-offset_top = 513.0
+offset_top = 653.0
 offset_right = 528.0
-offset_bottom = 548.0
+offset_bottom = 688.0
 color = Color(1, 0.32941177, 0, 1)
 
 [node name="ColorRect3" type="ColorRect" parent="." unique_id=445179135]
 offset_left = 653.0
-offset_top = 513.0
+offset_top = 653.0
 offset_right = 778.0
-offset_bottom = 548.0
+offset_bottom = 688.0
 color = Color(1, 0.32941177, 0, 1)
 
 [node name="ColorRect4" type="ColorRect" parent="." unique_id=513632212]
 offset_left = 903.0
-offset_top = 513.0
+offset_top = 653.0
 offset_right = 1028.0
-offset_bottom = 548.0
+offset_bottom = 688.0
 color = Color(1, 0.32941177, 0, 1)
