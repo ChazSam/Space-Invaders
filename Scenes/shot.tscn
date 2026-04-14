@@ -13,4 +13,5 @@ texture = ExtResource("1_t1yjw")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=406098509]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1732770124]
+texture_filter = 1
 position = Vector2(87, 59)
