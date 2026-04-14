@@ -18,47 +18,47 @@ position = Vector2(600, 600)
 [node name="Enemies" type="Node2D" parent="." unique_id=65647296]
 
 [node name="Enemy" parent="Enemies" unique_id=1474873810 instance=ExtResource("2_o6mx0")]
-position = Vector2(256, 300)
+position = Vector2(254, 300)
 rotation = -3.1415925
 scale = Vector2(1.75, 1.75)
 
 [node name="Enemy2" parent="Enemies" unique_id=270290513 instance=ExtResource("2_o6mx0")]
-position = Vector2(331, 300)
+position = Vector2(329, 300)
 rotation = -3.1415925
 scale = Vector2(1.75, 1.75)
 
 [node name="Enemy3" parent="Enemies" unique_id=446979764 instance=ExtResource("2_o6mx0")]
-position = Vector2(406, 300)
+position = Vector2(404, 300)
 rotation = -3.1415925
 scale = Vector2(1.75, 1.75)
 
 [node name="Enemy4" parent="Enemies" unique_id=1018197453 instance=ExtResource("2_o6mx0")]
-position = Vector2(481, 300)
+position = Vector2(479, 300)
 rotation = -3.1415925
 scale = Vector2(1.75, 1.75)
 
 [node name="Enemy5" parent="Enemies" unique_id=813405172 instance=ExtResource("2_o6mx0")]
-position = Vector2(556, 300)
+position = Vector2(554, 300)
 rotation = -3.1415925
 scale = Vector2(1.75, 1.75)
 
 [node name="Enemy6" parent="Enemies" unique_id=1161873982 instance=ExtResource("2_o6mx0")]
-position = Vector2(631, 300)
+position = Vector2(629, 300)
 rotation = -3.1415925
 scale = Vector2(1.75, 1.75)
 
 [node name="Enemy7" parent="Enemies" unique_id=1194124479 instance=ExtResource("2_o6mx0")]
-position = Vector2(706, 300)
+position = Vector2(704, 300)
 rotation = -3.1415925
 scale = Vector2(1.75, 1.75)
 
 [node name="Enemy8" parent="Enemies" unique_id=1751177624 instance=ExtResource("2_o6mx0")]
-position = Vector2(781, 300)
+position = Vector2(779, 300)
 rotation = -3.1415925
 scale = Vector2(1.75, 1.75)
 
 [node name="Enemy9" parent="Enemies" unique_id=2000944353 instance=ExtResource("2_o6mx0")]
-position = Vector2(856, 300)
+position = Vector2(854, 300)
 rotation = -3.1415925
 scale = Vector2(1.75, 1.75)
 
@@ -266,3 +266,31 @@ scale = Vector2(1.75, 1.75)
 position = Vector2(929, 100)
 rotation = -3.1415925
 scale = Vector2(1.75, 1.75)
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=750114135]
+offset_left = 153.0
+offset_top = 513.0
+offset_right = 278.0
+offset_bottom = 548.0
+color = Color(1, 0.32941177, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=567057160]
+offset_left = 403.0
+offset_top = 513.0
+offset_right = 528.0
+offset_bottom = 548.0
+color = Color(1, 0.32941177, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="." unique_id=445179135]
+offset_left = 653.0
+offset_top = 513.0
+offset_right = 778.0
+offset_bottom = 548.0
+color = Color(1, 0.32941177, 0, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="." unique_id=513632212]
+offset_left = 903.0
+offset_top = 513.0
+offset_right = 1028.0
+offset_bottom = 548.0
+color = Color(1, 0.32941177, 0, 1)
