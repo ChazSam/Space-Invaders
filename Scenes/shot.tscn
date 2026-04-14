@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://f6bkx2kwlfke"]
+
+[ext_resource type="Script" uid="uid://br50twsm3r8nl" path="res://Space-Invaders/Scenes/shot.gd" id="1_q62kd"]
+[ext_resource type="Texture2D" uid="uid://d0h28umhdr7o3" path="res://Space-Invaders/Assests/Foozle_2DS0011_Void_MainShip/Main ship weapons/PNGs/Main ship weapon - Projectile - Rocket.png" id="1_t1yjw"]
+
+[node name="Shot" type="Node2D" unique_id=204037008]
+script = ExtResource("1_q62kd")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=10861791]
+position = Vector2(48, 16)
+texture = ExtResource("1_t1yjw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=406098509]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1732770124]
+position = Vector2(87, 59)
