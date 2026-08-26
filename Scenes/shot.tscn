@@ -27,7 +27,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_gndhq")
 }],
-"loop": true,
+"loop": 1,
 "name": &"new_animation",
 "speed": 10.0
 }]
@@ -49,3 +49,8 @@ frame_progress = 0.9564275
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=406098509]
 position = Vector2(-1, 3)
 shape = SubResource("CapsuleShape2D_horv4")
+
+[node name="VisibleNotifier" type="VisibleOnScreenEnabler2D" parent="." unique_id=98903717]
+rect = Rect2(-7, -15, 12, 36)
+
+[connection signal="screen_exited" from="VisibleNotifier" to="." method="_on_visible_notifier_screen_exited"]
