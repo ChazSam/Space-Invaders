@@ -20,3 +20,5 @@ texture = ExtResource("1_pbw7s")
 [node name="InputComponent" type="Node" parent="." unique_id=1643389375]
 script = ExtResource("2_s3vle")
 metadata/_custom_type_script = "uid://ckcm55i613r7d"
+
+[node name="RocketContainer" type="Node" parent="." unique_id=18124821]

@@ -4,4 +4,4 @@ var speed = 300
 var direction = 1
 
 func _process(delta: float) -> void:
-	position.y += speed * direction * delta
+	global_position.y += speed * direction * delta
