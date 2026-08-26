@@ -2,13 +2,11 @@ class_name Player extends CharacterBody2D
 
 @export var move_speed = 350
 
-@onready var shot = preload("res://Space-Invaders/Scenes/shot.tscn")
+var rocket_scene = preload("res://Space-Invaders/Scenes/shot.tscn")
 
 #@onready var input_component: InputComponent = $InputComponent
-var rocket_container
+@onready var rocket_container = $RocketContainer
 
-func _ready() -> void:
-	rocket_container = get_node("RocketContainer")
 
 func _physics_process(delta: float) -> void:
 	var input_dir = Input.get_axis("move_left","move_right")
@@ -25,9 +23,8 @@ func _process(delta:float):
 
 func shoot():
 
-	var rocket_instance = shot.instantiate()
+	var rocket_instance = rocket_scene.instantiate()
 	rocket_instance.direction = -1
-	
 	rocket_container.add_child(rocket_instance)
 	rocket_instance.global_position = global_position
 	rocket_instance.global_position.y -= 40
